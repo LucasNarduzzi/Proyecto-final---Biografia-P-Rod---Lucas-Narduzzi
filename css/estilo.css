@@ -21,6 +21,17 @@ header{
 .navbar-responsive{
 	margin-right: 20px;
 }
+@media (max-width: 576px){
+	.li-padding-responsive{
+		padding-left: 20px;
+	}
+}
+@media (max-width: 992px){
+	.li-padding-responsive{
+		padding-left: 20px;
+	}
+}
+
 
 /*////////////////////////////////////////// index ////////////////////////////////////////*/
 .index__section1__carousel__tamano{ /*<-----section contenedor del banner/*/
