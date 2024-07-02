@@ -1,0 +1,197 @@
+*{
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
+}
+
+.container__padre__tamano{ /*/<----- Div contenedor de todo/*/
+	padding: 0px;
+	overflow: hidden;
+}
+
+/*///////////Header index - Galeria - Biografia///////////*/
+header{
+	background: #eee;
+}
+
+.logo__tamano{  /*/<<--- Logo nav */
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 10px 25px;
+}
+
+/*////////////////////////////////////////// index ////////////////////////////////////////*/
+.index__section1__carousel__tamano{ /*<-----section contenedor del banner/*/
+	padding: 0px;
+}
+
+.bg-div-banner{   /*<----- banner/*/
+	background-image: url("../assets/prod12.jpg");
+	background-size: cover;
+	margin: 0px;
+	padding: 50px;
+}
+.index__div__banner__text{ /*/<-- texto junto al banner//*/
+		background: #eee;
+}
+
+.img-h{  /*/<--- height de la tercera imagen del main (prod18)>/*/
+	height: 100%;
+}
+
+.index__section4-bootstrap{
+	padding: 20px;
+}
+
+/*/ index responsive /////////////////////////////*/
+@media (max-width: 576px){
+	.index__div__banner__text{ /*/<-- texto junto al banner//*/
+		min-width: 180px;
+		margin-left: 12px;
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	.carousel-item{ /*/<<-- 3 divs contenedores de imagenes del banner//*/
+		margin-left: 10px;	
+	}
+
+	.section3__img-item{ /*/<<-- div contenedor de imagenes en main//*/
+		margin: 20px 0px;
+	}
+}
+
+@media (max-width: 992px) {
+	.carousel-item{ /*/<<-- 3 divs contenedores de imagenes del banner//*/
+		margin-left: 12px;
+	}
+
+	.index__div__banner__text{ /*/<<-- texto junto al banner//*/
+		margin: 20px 0px 0px 12px;
+		text-align: center;
+		max-width: 960px;
+		padding: 20px;
+	}
+
+	.section3__img-item{ /*/<<-- div contenedor de imagenes en main//*/
+		margin: 40px 0px;
+	}
+	
+}
+/*////////////////////////////////////////// galeria ////////////////////////////////////////*/
+.galeria__section1-imgenes { /*/<<-- div padre contenedor de imagenes en main//*/
+	background-image: url("../assets/prod2.jpg");
+	background-size: cover;
+	padding: 30px 0px 40px;
+	margin: auto;
+}
+
+.galeria__section1-imgenes div{
+	padding: 20px 40px;
+}
+
+.galeria__section2-videos{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.galeria__section2-videos div{
+	padding: 0px 10px 40px 10px;
+}
+
+/*/ galeria responsive /////////////////////////////*/
+@media (max-width: 576px){
+	.galeria__section1-imgenes{ 
+		margin: auto;
+	}
+	.galeria__section2-videos div iframe{
+	width: 100%;
+	}
+}
+@media (max-width: 992px){
+	.galeria__section1-imgenes{ 
+		margin: auto;
+	}
+}
+/*////////////////////////////////////////// biografia ////////////////////////////////////////*/
+.biografia__section-blog h1{
+	font-size: 33px;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.biografia__section-blog p{
+	padding: 20px;
+}
+
+.biografia__section-blog__div__banner{
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.biografia__section-blog__div__banner img{
+	width: 100%;
+}
+
+.biografia__section-blog article{
+	width: 100%;
+}
+
+.biografia__section-blog_article__div-iframe {
+	display: flex;
+	justify-content: center;
+}
+
+.biografia__section-blog_article__div-imagen {
+	display: flex;
+	justify-content: center;
+}
+
+.biografia__section-blog__div-imagenes__div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.biografia__section-blog_article__div-iframe iframe {
+	margin: 20px 0px;
+}
+
+.biografia__section-blog__p-titulo{
+	font-size: 27px;
+	margin: 0px 20px 20px 20px;
+	background: rgb(240, 122, 17, 1.0);
+	padding: 10px;
+}
+
+@media (max-width: 576px){
+	main img{
+ 		width: 100%;
+	}
+
+	.biografia__section-blog__div__banner{
+		height: 200px;
+		padding: 0px;
+
+	}
+	.biografia__section-blog__div__banner img{
+		height: 100%;
+		object-fit: cover;
+		object-position: 100% 0%;
+	}
+}
+@media (max-width: 992px){
+		main img{
+ 		width: 100%;
+	}
+}
+/*////////////////////////////////////////// Footer index - Galeria - Biografoa ////////////////*/
+footer{
+	text-align: center;
+	padding: 20px;
+	background: #000;
+}
+
+footer h4{
+	color: #fff;
+}
+
