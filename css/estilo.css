@@ -18,6 +18,9 @@ header{
 	height: 50px;
 	margin: 0px 0px 10px 25px;
 }
+.navbar-responsive{
+	margin-right: 20px;
+}
 
 /*////////////////////////////////////////// index ////////////////////////////////////////*/
 .index__section1__carousel__tamano{ /*<-----section contenedor del banner/*/
