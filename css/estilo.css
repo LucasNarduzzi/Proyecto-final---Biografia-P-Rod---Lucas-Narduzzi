@@ -8,7 +8,7 @@
 	overflow: hidden;
 }
 
-/*///////////Header index - Galeria - Biografia///////////*/
+/*///////////Header/nav index - Galeria - Biografia///////////*/
 header{
 	background: #eee;
 }
@@ -178,15 +178,11 @@ header{
 }
 
 @media (max-width: 576px){
-	main img{
- 		width: 100%;
-	}
-
 	.biografia__section-blog__div__banner{
 		height: 200px;
 		padding: 0px;
-
 	}
+
 	.biografia__section-blog__div__banner img{
 		height: 100%;
 		object-fit: cover;
