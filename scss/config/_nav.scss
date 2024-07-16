@@ -1,0 +1,25 @@
+/*///////////Header/nav index - Galeria - Biografia///////////*/
+header{
+	background: $gris;
+	nav{
+		div{
+			.logo__tamano{  /*/<<--- Logo nav */
+				width: 50px;
+				height: 50px;
+				margin: 0px 0px 10px 25px;
+			}
+			div{
+				ul{
+					li{
+						a{
+							margin-left: 10px;
+						}
+						a:hover{
+							text-shadow: 1px 1px 2px rgb(240, 122, 17, 1.0);
+						}
+					}
+				}
+			}
+		}
+	}
+}

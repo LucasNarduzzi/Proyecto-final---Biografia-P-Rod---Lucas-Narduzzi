@@ -1,0 +1,18 @@
+/*////////////////////////////////////////// galeria ////////////////////////////////////////*/
+.galeria__section1-imgenes { /*/<<-- div padre contenedor de imagenes en main//*/
+	background-image: url("../assets/prod2.jpg");
+	background-size: cover;
+	padding: 30px 0px 40px;
+	margin: auto;
+	div{
+		padding: 20px 40px;
+	}
+}
+
+.galeria__section2-videos{
+	text-align: center;
+	margin: 20px 0px;
+	div{
+		padding: 0px 10px 40px 10px;
+	}
+}

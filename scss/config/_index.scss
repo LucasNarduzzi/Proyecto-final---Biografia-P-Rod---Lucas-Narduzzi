@@ -1,0 +1,23 @@
+/*////////////////////////////////////////// index ////////////////////////////////////////*/
+.bg-div-banner{   /*<----- banner/*/
+	background-image: url("../assets/prod12.jpg");
+	background-size: cover;
+	margin: 0px;
+	padding: 50px;
+	display: flex;
+}
+
+.index__div__banner__text{ /*/<-- texto junto al banner//*/
+		background: $gris;
+		justify-content: center;
+		padding: 20px;
+		font-size: 1em;
+		transition: .2s;
+}
+.index__div__banner__text:hover{
+	background: #fff;
+}
+
+.img-h{  /*/<--- height de la tercera imagen del main (prod18)>/*/
+	height: 100%;
+}

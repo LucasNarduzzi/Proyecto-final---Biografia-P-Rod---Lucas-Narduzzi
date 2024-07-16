@@ -1,0 +1,44 @@
+/*////////////////////////////////////////// biografia ////////////////////////////////////////*/
+.biografia__section-blog {
+	article{
+		width: 100%;
+		h1{
+			font-size: 33px;
+			padding: 20px 0px;
+			text-align: center;
+		}
+		p{
+			padding: 20px;
+		}
+		.biografia__section-blog__div__banner{
+			width: 100%;
+			padding: 0px 20px;
+			img{
+				width: 100%;
+			}
+		}
+		.biografia__section-blog_article__div-iframe {
+			@include flex-row-center;
+				iframe {
+					margin: 20px 0px;
+			}
+		}
+		.biografia__section-blog_article__div-imagen {
+			@include flex-row-center;
+		}
+		
+		.biografia__section-blog__div-imagenes__div {
+			@include flex-row-center;
+			flex-wrap: wrap;
+		}
+		
+		
+		.biografia__section-blog__p-titulo{
+			font-size: 27px;
+			margin: 0px 20px 20px 20px;
+			background: rgb(240, 122, 17, 1.0);
+			padding: 10px;
+		}
+	}
+	
+}
