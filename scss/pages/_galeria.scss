@@ -1,5 +1,5 @@
 /*////////////////////////////////////////// galeria ////////////////////////////////////////*/
-.galeria__section1-imgenes { /*/<<-- div padre contenedor de imagenes en main//*/
+.galeria__imgenes { /*/<<-- div padre contenedor de imagenes en main//*/
 	background-image: url("../assets/prod2.jpg");
 	background-size: cover;
 	padding: 30px 0px 40px;
@@ -9,7 +9,7 @@
 	}
 }
 
-.galeria__section2-videos{
+.galeria__videos{ /*/<<-- div padre contenedor de videos en main//*/
 	text-align: center;
 	margin: 20px 0px;
 	div{

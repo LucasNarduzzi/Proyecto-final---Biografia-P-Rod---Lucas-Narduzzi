@@ -1,5 +1,5 @@
 /*////////////////////////////////////////// biografia ////////////////////////////////////////*/
-.biografia__section-blog {
+.biografia__blog {
 	article{
 		width: 100%;
 		h1{
@@ -10,30 +10,30 @@
 		p{
 			padding: 20px;
 		}
-		.biografia__section-blog__div__banner{
+		.biografia__blog__banner{
 			width: 100%;
 			padding: 0px 20px;
 			img{
 				width: 100%;
 			}
 		}
-		.biografia__section-blog_article__div-iframe {
+		.biografia__blog__iframe {
 			@include flex-row-center;
 				iframe {
 					margin: 20px 0px;
 			}
 		}
-		.biografia__section-blog_article__div-imagen {
+		.biografia__blog__imagen {
 			@include flex-row-center;
 		}
 		
-		.biografia__section-blog__div-imagenes__div {
+		.biografia__blog__zapas {
 			@include flex-row-center;
 			flex-wrap: wrap;
 		}
 		
 		
-		.biografia__section-blog__p-titulo{
+		.biografia__blog__titulo{
 			font-size: 27px;
 			margin: 0px 20px 20px 20px;
 			background: rgb(240, 122, 17, 1.0);

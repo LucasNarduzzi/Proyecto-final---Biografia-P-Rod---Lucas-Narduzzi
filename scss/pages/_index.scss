@@ -1,5 +1,5 @@
 /*////////////////////////////////////////// index ////////////////////////////////////////*/
-.bg-div-banner{   /*<----- banner/*/
+.bg__banner{   /*<----- banner/*/
 	background-image: url("../assets/prod12.jpg");
 	background-size: cover;
 	margin: 0px;
@@ -7,14 +7,14 @@
 	display: flex;
 }
 
-.index__div__banner__text{ /*/<-- texto junto al banner//*/
+.index__banner__text{ /*/<-- texto junto al banner//*/
 		background: $gris;
 		justify-content: center;
 		padding: 20px;
 		font-size: 1em;
 		transition: .2s;
 }
-.index__div__banner__text:hover{
+.index__banner__text:hover{
 	background: #fff;
 }
 

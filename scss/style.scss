@@ -1,12 +1,12 @@
 // Reset
-@import './config/var';
-@import './config/mixins';
-@import './config/reset';
+@import './base/var';
+@import './base/mixins';
+@import './base/reset';
 // Layout
-@import './config/nav';
-@import './config/index';
-@import './config/galeria';
-@import './config/biografia';
-@import './config/footer';
+@import './layouts/nav';
+@import './pages/index';
+@import './pages/galeria';
+@import './pages/biografia';
+@import './layouts/footer';
 // Media queries
-@import './config/mq';
+@import './base/mq';
