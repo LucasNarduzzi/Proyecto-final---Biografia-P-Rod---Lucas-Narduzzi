@@ -1,6 +1,5 @@
 /*////////////////////////////////////////// biografia ////////////////////////////////////////*/
 .biografia__blog {
-	article{
 		width: 100%;
 		h1{
 			font-size: 33px;
@@ -10,35 +9,30 @@
 		p{
 			padding: 20px;
 		}
-		.biografia__blog__banner{
+		&__banner{
 			width: 100%;
 			padding: 0px 20px;
 			img{
 				width: 100%;
 			}
 		}
-		.biografia__blog__iframe {
+		&__video {
 			@include flex-row-center;
 				iframe {
 					margin: 20px 0px;
 			}
 		}
-		.biografia__blog__imagen {
+		&__imagen {
 			@include flex-row-center;
-		}
-		
-		.biografia__blog__zapas {
+		}	
+		&__zapas {
 			@include flex-row-center;
 			flex-wrap: wrap;
 		}
-		
-		
-		.biografia__blog__titulo{
+		&__titulo{
 			font-size: 27px;
 			margin: 0px 20px 20px 20px;
 			background: rgb(240, 122, 17, 1.0);
 			padding: 10px;
 		}
-	}
-	
 }

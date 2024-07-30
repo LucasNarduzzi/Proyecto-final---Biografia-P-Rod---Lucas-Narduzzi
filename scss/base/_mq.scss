@@ -55,11 +55,10 @@
 
 	/*/ biografia responsive -------------------------------------------------------/*/
 	.biografia__blog {
-		article{
 			img{
 				width: 100%;
 			}
-			.biografia__blog__banner{
+			&__banner{
 				height: 200px;
 				padding: 0px;
 					img{
@@ -68,21 +67,16 @@
 						object-position: 100% 0%;
 					}
 			} 
-		}
 	}
 	/*/ galeria responsive ///////////////////////////////////////////////////*/
 	.galeria__imgenes{ 
 		margin: auto;
 	}
 	.galeria__videos{
-		article{
 			div{
 				iframe {
 				width: 100%;
 				}
 			}
-		}
-		
-	} 
-		
+	}			
 }

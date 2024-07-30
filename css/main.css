@@ -8,7 +8,7 @@
 header {
   background: #eeeeee;
 }
-header nav div .logo__tamano { /*/<<--- Logo nav */
+header nav div .logo { /*/<<--- Logo nav */
   width: 50px;
   height: 50px;
   margin: 0px 0px 10px 25px;
@@ -16,7 +16,7 @@ header nav div .logo__tamano { /*/<<--- Logo nav */
 header nav div div ul li a {
   margin-left: 10px;
 }
-header nav div div ul li a:hover {
+header nav div div ul li:hover {
   text-shadow: 1px 1px 2px rgb(240, 122, 17);
 }
 
@@ -45,6 +45,48 @@ header nav div div ul li a:hover {
   height: 100%;
 }
 
+/*////////////////////////////////////////// biografia ////////////////////////////////////////*/
+.biografia__blog {
+  width: 100%;
+}
+.biografia__blog h1 {
+  font-size: 33px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.biografia__blog p {
+  padding: 20px;
+}
+.biografia__blog__banner {
+  width: 100%;
+  padding: 0px 20px;
+}
+.biografia__blog__banner img {
+  width: 100%;
+}
+.biografia__blog__video {
+  display: flex;
+  justify-content: center;
+}
+.biografia__blog__video iframe {
+  margin: 20px 0px;
+}
+.biografia__blog__imagen {
+  display: flex;
+  justify-content: center;
+}
+.biografia__blog__zapas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.biografia__blog__titulo {
+  font-size: 27px;
+  margin: 0px 20px 20px 20px;
+  background: rgb(240, 122, 17);
+  padding: 10px;
+}
+
 /*////////////////////////////////////////// galeria ////////////////////////////////////////*/
 .galeria__imgenes { /*/<<-- div padre contenedor de imagenes en main//*/
   background-image: url("../assets/prod2.jpg");
@@ -62,48 +104,6 @@ header nav div div ul li a:hover {
 }
 .galeria__videos div {
   padding: 0px 10px 40px 10px;
-}
-
-/*////////////////////////////////////////// biografia ////////////////////////////////////////*/
-.biografia__blog article {
-  width: 100%;
-}
-.biografia__blog article h1 {
-  font-size: 33px;
-  padding: 20px 0px;
-  text-align: center;
-}
-.biografia__blog article p {
-  padding: 20px;
-}
-.biografia__blog article .biografia__blog__banner {
-  width: 100%;
-  padding: 0px 20px;
-}
-.biografia__blog article .biografia__blog__banner img {
-  width: 100%;
-}
-.biografia__blog article .biografia__blog__iframe {
-  display: flex;
-  justify-content: center;
-}
-.biografia__blog article .biografia__blog__iframe iframe {
-  margin: 20px 0px;
-}
-.biografia__blog article .biografia__blog__imagen {
-  display: flex;
-  justify-content: center;
-}
-.biografia__blog article .biografia__blog__zapas {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.biografia__blog article .biografia__blog__titulo {
-  font-size: 27px;
-  margin: 0px 20px 20px 20px;
-  background: rgb(240, 122, 17);
-  padding: 10px;
 }
 
 /*////////////////////////////////////////// Footer index - Galeria - Biografoa ////////////////*/
@@ -164,14 +164,14 @@ footer h4 {
     margin: 20px 0px;
   }
   /*/ biografia responsive -------------------------------------------------------/*/
-  .biografia__blog article img {
+  .biografia__blog img {
     width: 100%;
   }
-  .biografia__blog article .biografia__blog__banner {
+  .biografia__blog__banner {
     height: 200px;
     padding: 0px;
   }
-  .biografia__blog article .biografia__blog__banner img {
+  .biografia__blog__banner img {
     height: 100%;
     object-fit: cover;
     object-position: 100% 0%;
@@ -180,7 +180,7 @@ footer h4 {
   .galeria__imgenes {
     margin: auto;
   }
-  .galeria__videos article div iframe {
+  .galeria__videos div iframe {
     width: 100%;
   }
 }
