@@ -41,10 +41,6 @@ header nav div div ul li:hover {
   background: #fff;
 }
 
-.img-h { /*/<--- height de la tercera imagen del main (prod18)>/*/
-  height: 100%;
-}
-
 /*////////////////////////////////////////// biografia ////////////////////////////////////////*/
 .biografia__blog {
   width: 100%;
@@ -112,7 +108,7 @@ footer {
   padding: 20px;
   background: #000;
 }
-footer h4 {
+footer p {
   color: #fff;
 }
 
